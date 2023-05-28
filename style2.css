@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*ejemplo flex direction row y flez wrap no wrap*/
+/* .contenedor{
+    width: 80%;
+    height: 500px;
+    background-color: pink;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    /*no permite el desbordamiento y se ajustan la cajas al contenedor padre
+    flex-wrap: nowrap;
+}  */
+
+/*ejemplo flex direction row y flez wrap- wrap*/
+.contenedor{
+    width: 80%;
+    height: 500px;
+    background-color: pink;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    /*no permite el desbordamiento y  */
+    flex-wrap: wrap;
+} 
+
+.hijo{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    color: aliceblue;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}

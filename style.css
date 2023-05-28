@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .contenedor{
+    width: 80%;
+    height: 500px;
+    background-color: pink;
+    margin: 50px auto;
+    display: flex;
+} */
+
+/*ejemplo para flex direction:row-reverse*/
+/* .contenedor{
+    width: 80%;
+    height: 500px;
+    background-color: pink;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row-reverse;
+}  */
+
+/*ejemplo con flex direction column*/
+/* .contenedor{
+    width: 80%;
+    height: 500px;
+    background-color: pink;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}  */
+
+/*ejemplo flex direction column reverse*/
+.contenedor{
+    width: 80%;
+    height: 500px;
+    background-color: pink;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column-reverse;
+} 
+
+.hijo{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    color: aliceblue;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
